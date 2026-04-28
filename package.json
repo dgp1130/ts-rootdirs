@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "npm run -s clean && tsc",
+    "build": "npm run -s clean && tsgo",
     "clean": "rm -rf dist/"
   },
   "devDependencies": {
-    "typescript": "^6.0.3"
+    "@typescript/native-preview": "^7.0.0-dev.20260428.1"
   }
 }
